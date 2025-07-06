@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>配布サイト</title>
+  <style>
+    body {
+      font-family: "Arial", sans-serif;
+      background-color: #f6fcfd;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      background-color: #def6ff;
+      padding: 2em 1em;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5em;
+      padding: 2em;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 280px;
+      padding: 1em;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .card h2 {
+      margin: 0.5em 0 0.2em;
+    }
+
+    .card p {
+      font-size: 0.9em;
+      color: #666;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 1em;
+      padding: 0.5em 1em;
+      background-color: #6ebeff;
+      color: #fff;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #5da9ff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🎮配布サイト</h1>
+    <p>配信で使ったワールドやリソースパックをダウンロードできるサイトです</p>
+  </header>
+
+  <main>
+    <div class="card">
+      <img src="desisamune.png">
+      <h2>声クラ</h2>
+      <p>マイクラ内のほぼすべての音が声に変化するリソースパック(統合版)</p>
+      <a href="https://drive.google.com/file/d/1qEkbBRF3hjj32fYlTGyykjASR559j4wZ/view?usp=sharing" class="btn" download>ダウンロード</a>
+    </div>
+
+    <div class="card">
+      <img src="desisamune.png">
+      <h2>声クラ2</h2>
+      <p>マイクラ内のほぼすべての音が声に変化するリソースパック(統合版)</p>
+      <a href="https://drive.google.com/file/d/1NmeMEOkiNPmOzoE9cL89Yk5a7h_5nSZN/view?usp=sharing" class="btn" download>ダウンロード</a>
+    </div>
